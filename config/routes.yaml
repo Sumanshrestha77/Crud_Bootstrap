@@ -1,0 +1,5 @@
+# config/routes.yaml
+product_delete_checked:
+    path: /product/deleteChecked
+    controller: App\Controller\ProductController::deleteChecked
+    methods: [DELETE]
